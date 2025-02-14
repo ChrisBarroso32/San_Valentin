@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffebee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+
+.gif-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#yesButton {
+    background-color: #4caf50;
+    color: white;
+}
+
+#noButton {
+    background-color: #f44336;
+    color: white;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+}
+
+.thank-you {
+    display: none;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.thank-you h2 {
+    font-size: 2em;
+    color: #d32f2f;
+}
+
+.thank-you img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
